@@ -1,6 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Mobile */
+
+/* Navbar */
+.navbar-brand {
+	font-family: poppins;
+	font-size: 16px;
+	color: #f9f5eb !important;
+}
+
+.navbar {
+	position: relative;
+	z-index: 999;
+}
+
+.nav-link {
+	font-family: poppins;
+	font-size: 16px;
+	color: #f9f5eb !important;
+}
+
 /* Home */
 
 .jumbotron {
 	background-image: url(https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=996&q=80);
 	background-size: cover;
+	height: 532px;
+	margin-top: -80px;
+}
+
+.jumbotron .display-5 {
+	text-align: center;
+	margin-top: 40px;
+	font-family: poppins;
+	font-size: 2rem;
+	margin-bottom: 22px;
+}
+
+.search {
+	background-color: #f9f5eb;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+	text-align: center;
+	padding: 0.4rem;
+	height: 1%;
+	font-family: poppins;
+	font-size: 0.6rem;
+	color: #d9d9d9;
+	margin-bottom: 23px;
+}
+/* .circle::before {
+	content: "";
+	width: 112px;
+	height: 112px;
+	border-radius: 50%;
+	background-color: #eae3d2;
+	filter: blur(10px);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+} */
+
+.circle {
+	width: 3rem;
+	height: 3rem;
+	background-color: #1c3879;
+	border-radius: 50%;
+	margin-bottom: 21px;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+.pill {
+	width: 40%;
+	height: 25%;
+	background-color: #1c3879;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	margin-bottom: 18px;
+	font-family: poppins;
+	font-size: 0.6rem;
+	color: #eae3d2;
+}
+.panels {
+	background-color: #eae3d2;
+}
+
+.panel {
+	color: #1c3879;
+	font-family: poppins;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.panel-text {
+	color: #1c3879;
+	font-family: poppins;
+	font-size: 18px;
+	font-weight: 600;
+}
+/* Desktop */
+@media (min-width: 992px) {
+	/* Home */
+	.home {
+		background-color: #f5f5f5;
+		height: 850px;
+		position: absolute;
+		z-index: 9999;
+	}
+
+	.jumbotron {
+		background-image: url(https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=996&q=80);
+		background-size: cover;
+		height: 780px;
+		margin-top: -121px;
+		position: relative;
+	}
+
+	.jumbotron .display-5 {
+		text-align: center;
+		margin-top: 148px;
+	}
 }
