@@ -3,7 +3,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-
+import Figure from "react-bootstrap/Figure";
+import { TiArchive } from "react-icons/ti";
 const Home = () => {
 	return (
 		<>
@@ -43,40 +44,80 @@ const Home = () => {
 						Hai kamu, <span className="fw-bold fs-40 ">mau desain apa?</span>
 					</h1>
 					<div className="search mx-auto ">Desain Rumah, Interior, Bangunan Lainnya, Struktur Hitung RAB </div>
-					<div className="d-flex justify-content-center">
-						<div className="circle mx-lg-4"></div>
-						<div className="circle mx-lg-4"></div>
-						<div className="circle mx-lg-4"></div>
-						<div className="circle mx-lg-4"></div>
+
+					<div className="row justify-content-center">
+						<div className="d-flex col-6 justify-content-center gap-3">
+							<Figure>
+								<Figure.Image width={42} height={42} alt="icon panel" src="https://i.pinimg.com/736x/0e/0d/11/0e0d11538b7d3e4128b5c6ea39fb3d10.jpg" className="rounded-circle" />
+								<Figure.Caption className="figure-caption">
+									<p className="text-center text-white">Rumah</p>
+								</Figure.Caption>
+							</Figure>
+							<Figure>
+								<Figure.Image width={42} height={42} alt="icon panel" src="https://i.pinimg.com/736x/0e/0d/11/0e0d11538b7d3e4128b5c6ea39fb3d10.jpg" className="rounded-circle" />
+								<Figure.Caption className="figure-caption">
+									<p className="text-center text-white">Interior</p>
+								</Figure.Caption>
+							</Figure>
+							<Figure>
+								<Figure.Image width={42} height={42} alt="icon panel" src="https://i.pinimg.com/736x/0e/0d/11/0e0d11538b7d3e4128b5c6ea39fb3d10.jpg" className="rounded-circle" />
+								<Figure.Caption className="figure-caption">
+									<p className="text-center text-white">Bangunan Lain</p>
+								</Figure.Caption>
+							</Figure>
+							<Figure>
+								<Figure.Image width={42} height={42} alt="icon panel" src="https://i.pinimg.com/736x/0e/0d/11/0e0d11538b7d3e4128b5c6ea39fb3d10.jpg" className="rounded-circle" />
+								<Figure.Caption className="figure-caption">
+									<p className="text-center text-white">Hitung RAB</p>
+								</Figure.Caption>
+							</Figure>
+						</div>
 					</div>
-					<div className="d-flex justify-content-center text-center">
-						<div className="pill mx-lg-4">Rumah</div>
-						<div className="pill mx-lg-4">Interior</div>
-						<div className="pill mx-lg-4">Bangunan Lain</div>
-						<div className="pill mx-lg-4">Hitung RAB</div>
-					</div>
-					<div className="d-flex justify-content-center">
-						<div className="circle mx-lg-4"></div>
-						<div className="circle mx-lg-4"></div>
-						<div className="circle mx-lg-4"></div>
-					</div>
-					<div className="d-flex justify-content-center text-center">
-						<div className="pill mx-lg-4">Struktur</div>
-						<div className="pill mx-lg-4">Partner</div>
-						<div className="pill mx-lg-4">Giivepro</div>
+					<div className="row justify-content-center">
+						<div className="d-flex col-6 justify-content-center gap-3">
+							<Figure>
+								<Figure.Image width={42} height={42} alt="icon panel" src="https://i.pinimg.com/736x/0e/0d/11/0e0d11538b7d3e4128b5c6ea39fb3d10.jpg" className="rounded-circle" />
+								<Figure.Caption className="figure-caption">
+									<p className="text-center text-white">Struktur</p>
+								</Figure.Caption>
+							</Figure>
+							<Figure>
+								<Figure.Image width={42} height={42} alt="icon panel" src="https://i.pinimg.com/736x/0e/0d/11/0e0d11538b7d3e4128b5c6ea39fb3d10.jpg" className="rounded-circle" />
+								<Figure.Caption className="figure-caption">
+									<p className="text-center text-white">Partner</p>
+								</Figure.Caption>
+							</Figure>
+							<Figure>
+								<Figure.Image width={42} height={42} alt="icon panel" src="https://i.pinimg.com/736x/0e/0d/11/0e0d11538b7d3e4128b5c6ea39fb3d10.jpg" className="rounded-circle" />
+								<Figure.Caption className="figure-caption">
+									<p className="text-center text-white">Giivepro</p>
+								</Figure.Caption>
+							</Figure>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div className="panels">
-				<div className="panel container d-flex justify-content-around ">
-					<p>523</p>
-					<p>1025</p>
-					<p>1520</p>
+			<div className="info-panel d-flex justify-content-center text-center">
+				<div className="col">
+					<h3>523</h3>
+					<div className="col d-flex justify-content-center">
+						<TiArchive />
+						<p>Antrean</p>
+					</div>
 				</div>
-				<div className="panel-text container d-flex justify-content-around ">
-					<p>Antrian</p>
-					<p>Diproses</p>
-					<p>Selesai</p>
+				<div className="col">
+					<h3>1025</h3>
+					<div className="col d-flex justify-content-center ">
+						<TiArchive />
+						<p>Diproses</p>
+					</div>
+				</div>
+				<div className="col">
+					<h3>1520</h3>
+					<div className="col d-flex justify-content-center ">
+						<TiArchive />
+						<p>Selesai</p>
+					</div>
 				</div>
 			</div>
 		</>
