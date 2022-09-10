@@ -6,7 +6,7 @@ import Rumah3 from "../image/rumah3.jpg";
 
 const DesainRumah = () => {
 	return (
-		<div className="container desain-rumah">
+		<div className="container desain-rumah pb-5">
 			<h1 className="title text-center">Desain Rumah</h1>
 			<Carousel fade>
 				<Carousel.Item>

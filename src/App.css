@@ -25,7 +25,7 @@
 .jumbotron {
 	background-image: url(https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=996&q=80);
 	background-size: cover;
-	height: 532px;
+	height: max-content;
 	margin-top: -80px;
 }
 
@@ -69,6 +69,41 @@
 /* Desain Rumah */
 
 .desain-rumah .title {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-family: poppins;
+	font-weight: 600;
+	font-size: larger;
+	color: #1c3879;
+}
+
+/* Mengapa Andara */
+.mengapa-andara {
+	background-color: #eae3d2;
+}
+.kotak {
+	background-color: #1c3879;
+	height: max-content;
+}
+
+.mengapa-andara .title {
+	margin-top: 40px;
+	font-family: poppins;
+	font-weight: 600;
+	font-size: larger;
+	color: #f9f5eb;
+}
+
+.daftar {
+	font-family: poppins;
+	font-weight: 600;
+	font-size: smaller;
+	color: #f9f5eb;
+}
+
+/* 4 langkah */
+
+.langkah .title {
 	margin-top: 40px;
 	margin-bottom: 20px;
 	font-family: poppins;
