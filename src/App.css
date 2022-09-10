@@ -66,6 +66,17 @@
 	padding-top: 20px;
 }
 
+/* Desain Rumah */
+
+.desain-rumah .title {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-family: poppins;
+	font-weight: 600;
+	font-size: larger;
+	color: #1c3879;
+}
+
 /* Desktop */
 @media (min-width: 992px) {
 	/* Home */
