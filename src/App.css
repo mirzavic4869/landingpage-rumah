@@ -156,9 +156,31 @@
 	color: #eae3d2;
 }
 
+.testimoni .figure {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
 /* .testimoni .figure {
 	margin: 0 40px;
 } */
+
+/* FAQ */
+
+.bg-FAQ {
+	background-color: #eae3d2;
+}
+
+.title-FAQ {
+	font-family: poppins;
+	font-weight: 600;
+	font-size: larger;
+	color: #1c3879;
+}
+
+.FAQ .daftar {
+	background-color: #1c3879;
+}
 
 /* Desktop */
 @media (min-width: 992px) {

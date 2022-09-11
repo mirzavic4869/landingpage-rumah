@@ -9,7 +9,7 @@ const Testimoni = () => {
 		<div className="bg-testimoni testimoni">
 			<div className="row title-testimoni justify-content-center p-5">Kata Mereka</div>
 			<div className="row justify-content-center">
-				<div className="col justify-content-center d-flex gap-4">
+				<div className="col-6 col-lg d-lg-flex justify-content-center gap-5">
 					<Figure>
 						<Figure.Image className="rounded-circle img-fluid figure-img" alt="foto1" src={Foto1} width={80} />
 						<Figure.Caption>James Clark</Figure.Caption>
@@ -21,6 +21,10 @@ const Testimoni = () => {
 					<Figure>
 						<Figure.Image className="rounded-circle img-fluid figure-img" alt="foto1" src={Foto3} width={80} />
 						<Figure.Caption>Andy Smith</Figure.Caption>
+					</Figure>
+					<Figure>
+						<Figure.Image className="rounded-circle img-fluid figure-img" alt="foto1" src={Foto1} width={80} />
+						<Figure.Caption>Tony Dune</Figure.Caption>
 					</Figure>
 				</div>
 			</div>
