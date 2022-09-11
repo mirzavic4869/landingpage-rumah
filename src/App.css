@@ -17,14 +17,15 @@
 .nav-link {
 	font-family: poppins;
 	font-size: 16px;
-	color: #f9f5eb !important;
+	color: #1c3879 !important;
 }
 
 /* Home */
 
 .jumbotron {
-	background-image: url(https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=996&q=80);
+	background-image: url(../src//image/hero.jpg);
 	background-size: cover;
+	background-position: center;
 	height: max-content;
 	margin-top: -80px;
 }
@@ -41,19 +42,27 @@
 	background-color: #f9f5eb;
 	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
 	border-radius: 25px;
+	vertical-align: middle;
+	padding: 7px;
 	text-align: center;
-	padding: 0.4rem;
-	height: 1%;
 	font-family: poppins;
-	font-size: 0.6rem;
+	font-size: 8px;
 	color: #d9d9d9;
 	margin-bottom: 23px;
+	width: 100%;
 }
 
-.figure-caption {
+.bg-icon {
+	background-color: #1c3879;
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+}
+
+/* .figure-caption {
 	background-color: #1c3879;
 	border-radius: 20%;
-}
+} */
 
 .info-panel {
 	background-color: #eae3d2;
@@ -62,8 +71,8 @@
 	font-weight: 600;
 	font-size: smaller;
 	color: #1c3879;
-	height: 100px;
-	padding-top: 20px;
+	height: max-content;
+	padding-top: 30px;
 }
 
 /* Desain Rumah */
@@ -83,7 +92,6 @@
 }
 .kotak {
 	background-color: #1c3879;
-	height: max-content;
 }
 
 .mengapa-andara .title {
@@ -112,18 +120,25 @@
 	color: #1c3879;
 }
 
+.langkah .caption {
+	color: #1c3879;
+}
+
 /* Benefits */
 .container .benefits {
-	background-color: #eae3d2;
+	background-color: #eae3d2 !important;
 	height: max-content;
+}
+.card {
+	background-color: #eae3d2 !important;
 }
 
 .title-benefits {
-	background-color: #1c3879;
+	background-color: #1c3879 !important;
 	font-family: poppins;
 	font-weight: 600;
 	font-size: larger;
-	color: #eae3d2;
+	color: #eae3d2 !important;
 	height: max-content;
 	margin-bottom: 40px;
 }
@@ -160,10 +175,6 @@
 	margin-left: 2px;
 	margin-right: 2px;
 }
-
-/* .testimoni .figure {
-	margin: 0 40px;
-} */
 
 /* FAQ */
 
@@ -205,18 +216,31 @@
 	width: 8rem;
 }
 
+/* Footer */
+.bg-footer {
+	background-color: #1c3879;
+}
+
+.footer .isi {
+	font-family: poppins;
+	font-size: smaller;
+	color: #eae3d2;
+}
+
 /* Desktop */
 @media (min-width: 992px) {
-	/* Home */
-	.home {
-		background-color: #f5f5f5;
-		height: 850px;
-		position: absolute;
-		z-index: 9999;
+	/* Navbar */
+
+	.nav-link {
+		font-family: poppins;
+		font-size: 16px;
+		color: #f9f5eb !important;
 	}
 
+	/* Home */
+
 	.jumbotron {
-		background-image: url(https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=996&q=80);
+		background-image: url(../src//image/hero.jpg);
 		background-size: cover;
 		height: 780px;
 		margin-top: -121px;
@@ -226,5 +250,71 @@
 	.jumbotron .display-5 {
 		text-align: center;
 		margin-top: 148px;
+	}
+
+	.search {
+		background-color: #f9f5eb;
+		box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+		border-radius: 25px;
+		text-align: center;
+		height: 1%;
+		font-family: poppins;
+		font-size: 1rem;
+		color: #d9d9d9;
+		margin-bottom: 23px;
+		width: 75%;
+	}
+
+	.info-panel {
+		background-color: #eae3d2;
+		margin-top: -40px;
+		font-family: poppins;
+		font-weight: 600;
+		font-size: smaller;
+		color: #1c3879;
+		height: max-content;
+		padding-top: 50px;
+	}
+
+	/* Desain Rumah */
+
+	.desain-rumah .title {
+		font-weight: 600;
+		font-size: xx-large;
+	}
+
+	/* Mengapa Andara */
+	.mengapa-andara .title {
+		font-weight: 600;
+		font-size: xx-large;
+	}
+	/* 4 langkah */
+
+	.langkah .title {
+		font-weight: 600;
+		font-size: xx-large;
+	}
+
+	.langkah .caption {
+		color: #1c3879;
+	}
+
+	/* Benefits */
+
+	.title-benefits {
+		font-weight: 600;
+		font-size: xx-large;
+	}
+
+	/* Testi */
+	.title-testimoni {
+		font-weight: 600;
+		font-size: xx-large;
+	}
+
+	/* FAQ */
+	.title-FAQ {
+		font-weight: 600;
+		font-size: xx-large;
 	}
 }
