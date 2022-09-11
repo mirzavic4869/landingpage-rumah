@@ -168,7 +168,7 @@
 /* FAQ */
 
 .bg-FAQ {
-	background-color: #eae3d2;
+	background-color: #f9f5eb;
 }
 
 .title-FAQ {
@@ -180,6 +180,29 @@
 
 .FAQ .daftar {
 	background-color: #1c3879;
+}
+
+/* CTA */
+
+.bg-CTA {
+	background-color: #eae3d2;
+}
+
+.title-CTA {
+	font-family: poppins;
+	font-weight: 600;
+	font-size: medium;
+	color: #1c3879;
+}
+
+.CTA .tombol {
+	background-color: #1c3879;
+	font-family: poppins;
+	font-weight: 600;
+	font-size: medium;
+	color: #eae3d2;
+	padding: 5px;
+	width: 8rem;
 }
 
 /* Desktop */

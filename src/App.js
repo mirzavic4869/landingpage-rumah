@@ -7,6 +7,7 @@ import TidakMenggunakan from "./components/TidakMenggunakan";
 import Benefits from "./components/Benefits";
 import Testimoni from "./components/Testimoni";
 import FAQ from "./components/FAQ";
+import CTA from "./components/CTA";
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 			<Benefits />
 			<Testimoni />
 			<FAQ />
+			<CTA />
 		</div>
 	);
 }
