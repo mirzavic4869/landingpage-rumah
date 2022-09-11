@@ -3,7 +3,7 @@ import { BsFillCheckCircleFill } from "react-icons/bs";
 
 const MengapaAndara = () => {
 	return (
-		<div className="bg">
+		<div id="about" className="bg">
 			<div className="container mengapa-andara p-4">
 				<div className="kotak rounded-4 ">
 					<div className="row title justify-content-center p-5">Mengapa Andara Arsitek?</div>

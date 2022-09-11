@@ -54,15 +54,22 @@
 
 .bg-icon {
 	background-color: #1c3879;
+	box-shadow: 0px 1px 30px #f9f5eb;
 	width: 50px;
 	height: 50px;
 	padding: 5px;
+	position: relative;
 }
 
-/* .figure-caption {
-	background-color: #1c3879;
-	border-radius: 20%;
-} */
+.figure-caption {
+	margin-top: 10px;
+	/* background-color: #1c3879; */
+	color: #1c3879 !important;
+	border-radius: 16px;
+	font-family: poppins;
+	font-weight: 600;
+	font-size: smaller;
+}
 
 .info-panel {
 	background-color: #eae3d2;
@@ -227,6 +234,12 @@
 	color: #eae3d2;
 }
 
+.foot {
+	font-family: poppins;
+	font-size: x-small;
+	font-weight: 600;
+	color: #1c3879;
+}
 /* Desktop */
 @media (min-width: 992px) {
 	/* Navbar */
@@ -263,6 +276,25 @@
 		color: #d9d9d9;
 		margin-bottom: 23px;
 		width: 75%;
+	}
+
+	.bg-icon {
+		background-color: #1c3879;
+		box-shadow: 0px 1px 30px #f9f5eb;
+		width: 100px;
+		height: 100px;
+		padding: 5px;
+		position: relative;
+	}
+
+	.figure-caption {
+		margin-top: 10px;
+		background-color: #1c3879;
+		color: #f9f5eb !important;
+		border-radius: 16px;
+		font-family: poppins;
+		font-weight: 600;
+		font-size: x-small;
 	}
 
 	.info-panel {
@@ -316,5 +348,9 @@
 	.title-FAQ {
 		font-weight: 600;
 		font-size: xx-large;
+	}
+
+	.foot {
+		font-size: smaller;
 	}
 }
