@@ -112,6 +112,29 @@
 	color: #1c3879;
 }
 
+/* Benefits */
+.container .benefits {
+	background-color: #eae3d2;
+	height: max-content;
+}
+
+.title-benefits {
+	background-color: #1c3879;
+	font-family: poppins;
+	font-weight: 600;
+	font-size: larger;
+	color: #eae3d2;
+	height: max-content;
+	margin-bottom: 40px;
+}
+
+.benefits .isi {
+	font-family: poppins;
+	font-weight: 600;
+	font-size: small;
+	color: #1c3879;
+	padding: 0 10px;
+}
 /* Desktop */
 @media (min-width: 992px) {
 	/* Home */
