@@ -5,6 +5,7 @@ import MengapaAndara from "./components/MengapaAndara";
 import Langkah from "./components/Langkah";
 import TidakMenggunakan from "./components/TidakMenggunakan";
 import Benefits from "./components/Benefits";
+import Testimoni from "./components/Testimoni";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 			<Langkah />
 			<TidakMenggunakan />
 			<Benefits />
+			<Testimoni />
 		</div>
 	);
 }

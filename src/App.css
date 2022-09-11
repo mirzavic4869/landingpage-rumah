@@ -135,6 +135,31 @@
 	color: #1c3879;
 	padding: 0 10px;
 }
+
+/* Testimoni */
+.bg-testimoni {
+	background-color: #1c3879;
+	width: 100%;
+}
+.title-testimoni {
+	font-family: poppins;
+	font-weight: 600;
+	font-size: larger;
+	color: #eae3d2;
+	height: max-content;
+}
+
+.testimoni .figure-caption {
+	font-family: poppins;
+	font-weight: 600;
+	font-size: smaller;
+	color: #eae3d2;
+}
+
+/* .testimoni .figure {
+	margin: 0 40px;
+} */
+
 /* Desktop */
 @media (min-width: 992px) {
 	/* Home */
