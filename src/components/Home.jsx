@@ -5,6 +5,8 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Figure from "react-bootstrap/Figure";
 import { TiArchive } from "react-icons/ti";
+import { BsCheckCircleFill, BsHouseFill, BsSearch } from "react-icons/bs";
+import { FaBuilding, FaCalculator, FaChair, FaGift, FaPeopleCarry, FaProcedures, FaRoad } from "react-icons/fa";
 const Home = () => {
 	return (
 		<>
@@ -43,30 +45,40 @@ const Home = () => {
 					<h1 className="display-5 text-white fs-32">
 						Hai kamu, <span className="fw-bold fs-40 ">mau desain apa?</span>
 					</h1>
-					<div className="search mx-auto ">Desain Rumah, Interior, Bangunan Lainnya, Struktur Hitung RAB </div>
-
+					<div className="search mx-auto d-flex justify-content-center gap-1 gap-lg-2 ">
+						<BsSearch />
+						<p>Desain Rumah, Interior, Bangunan Lainnya, Struktur Hitung RAB</p>
+					</div>
 					<div className="row justify-content-center">
-						<div className="d-flex col-6 justify-content-center gap-3">
+						<div className="d-flex col-6 justify-content-center text-center gap-3">
 							<Figure>
-								<Figure.Image width={42} height={42} alt="icon panel" src="https://i.pinimg.com/736x/0e/0d/11/0e0d11538b7d3e4128b5c6ea39fb3d10.jpg" className="rounded-circle" />
+								<div className="bg-icon rounded-circle">
+									<BsHouseFill color="#F9F5EB" size={25} />
+								</div>
 								<Figure.Caption className="figure-caption">
 									<p className="text-center text-white">Rumah</p>
 								</Figure.Caption>
 							</Figure>
 							<Figure>
-								<Figure.Image width={42} height={42} alt="icon panel" src="https://i.pinimg.com/736x/0e/0d/11/0e0d11538b7d3e4128b5c6ea39fb3d10.jpg" className="rounded-circle" />
+								<div className="bg-icon rounded-circle">
+									<FaChair color="#F9F5EB" size={25} />
+								</div>
 								<Figure.Caption className="figure-caption">
 									<p className="text-center text-white">Interior</p>
 								</Figure.Caption>
 							</Figure>
 							<Figure>
-								<Figure.Image width={42} height={42} alt="icon panel" src="https://i.pinimg.com/736x/0e/0d/11/0e0d11538b7d3e4128b5c6ea39fb3d10.jpg" className="rounded-circle" />
+								<div className="bg-icon rounded-circle">
+									<FaBuilding color="#F9F5EB" size={25} />
+								</div>
 								<Figure.Caption className="figure-caption">
 									<p className="text-center text-white">Bangunan Lain</p>
 								</Figure.Caption>
 							</Figure>
 							<Figure>
-								<Figure.Image width={42} height={42} alt="icon panel" src="https://i.pinimg.com/736x/0e/0d/11/0e0d11538b7d3e4128b5c6ea39fb3d10.jpg" className="rounded-circle" />
+								<div className="bg-icon rounded-circle">
+									<FaCalculator color="#F9F5EB" size={25} />
+								</div>
 								<Figure.Caption className="figure-caption">
 									<p className="text-center text-white">Hitung RAB</p>
 								</Figure.Caption>
@@ -74,21 +86,27 @@ const Home = () => {
 						</div>
 					</div>
 					<div className="row justify-content-center">
-						<div className="d-flex col-6 justify-content-center gap-3">
+						<div className="d-flex col-6 justify-content-center gap-3 text-center">
 							<Figure>
-								<Figure.Image width={42} height={42} alt="icon panel" src="https://i.pinimg.com/736x/0e/0d/11/0e0d11538b7d3e4128b5c6ea39fb3d10.jpg" className="rounded-circle" />
+								<div className="bg-icon rounded-circle">
+									<FaRoad color="#F9F5EB" size={25} />
+								</div>
 								<Figure.Caption className="figure-caption">
 									<p className="text-center text-white">Struktur</p>
 								</Figure.Caption>
 							</Figure>
 							<Figure>
-								<Figure.Image width={42} height={42} alt="icon panel" src="https://i.pinimg.com/736x/0e/0d/11/0e0d11538b7d3e4128b5c6ea39fb3d10.jpg" className="rounded-circle" />
+								<div className="bg-icon rounded-circle">
+									<FaPeopleCarry color="#F9F5EB" size={25} />
+								</div>
 								<Figure.Caption className="figure-caption">
 									<p className="text-center text-white">Partner</p>
 								</Figure.Caption>
 							</Figure>
 							<Figure>
-								<Figure.Image width={42} height={42} alt="icon panel" src="https://i.pinimg.com/736x/0e/0d/11/0e0d11538b7d3e4128b5c6ea39fb3d10.jpg" className="rounded-circle" />
+								<div className="bg-icon rounded-circle">
+									<FaGift color="#F9F5EB" size={25} />
+								</div>
 								<Figure.Caption className="figure-caption">
 									<p className="text-center text-white">Giivepro</p>
 								</Figure.Caption>
@@ -100,22 +118,22 @@ const Home = () => {
 			<div className="info-panel d-flex justify-content-center text-center">
 				<div className="col">
 					<h3>523</h3>
-					<div className="col d-flex justify-content-center">
+					<div className="col d-flex justify-content-center gap-1">
 						<TiArchive />
 						<p>Antrean</p>
 					</div>
 				</div>
 				<div className="col">
 					<h3>1025</h3>
-					<div className="col d-flex justify-content-center ">
-						<TiArchive />
+					<div className="col d-flex justify-content-center gap-1">
+						<FaProcedures />
 						<p>Diproses</p>
 					</div>
 				</div>
 				<div className="col">
 					<h3>1520</h3>
-					<div className="col d-flex justify-content-center ">
-						<TiArchive />
+					<div className="col d-flex justify-content-center gap-1">
+						<BsCheckCircleFill />
 						<p>Selesai</p>
 					</div>
 				</div>

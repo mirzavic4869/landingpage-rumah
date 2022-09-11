@@ -8,6 +8,7 @@ import Benefits from "./components/Benefits";
 import Testimoni from "./components/Testimoni";
 import FAQ from "./components/FAQ";
 import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 			<Testimoni />
 			<FAQ />
 			<CTA />
+			<Footer />
 		</div>
 	);
 }
